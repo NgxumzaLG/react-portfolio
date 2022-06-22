@@ -1,151 +1,151 @@
 header {
-  height: 100vh;
-  padding-top: 7rem;
-  overflow: hidden;
+   height: 100vh;
+   padding-top: 7rem;
+   overflow: hidden;
 }
 
 .header_container {
-  text-align: center;
-  height: 100%;
-  position: relative;
+   text-align: center;
+   height: 100%;
+   position: relative;
 }
 
 /* ==================== CTA ==================== */
 
 .cta {
-  margin-top: 2.5rem;
-  display: flex;
-  gap: 1.2rem;
-  justify-content: center;
+   margin-top: 2.5rem;
+   display: flex;
+   gap: 1.2rem;
+   justify-content: center;
 }
 
 /* ==================== HEADER SOCIALS ==================== */
 
 .header_socials {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  gap: 0.8rem;
-  position: absolute;
-  left: 0;
-  bottom: 5rem;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   gap: 0.8rem;
+   position: absolute;
+   left: 0;
+   bottom: 5rem;
 }
 
 .header_socials::after {
-  content: '';
-  width: 1px;
-  height: 2rem;
-  background: var(--color-primary);
+   content: '';
+   width: 1px;
+   height: 2rem;
+   background: var(--color-primary);
 }
 
 /* ==================== ME ==================== */
 
 .me {
-  background: linear-gradient(var(--color-primary), transparent);
-  width: 22rem;
-  height: 24rem;
-  position: absolute;
-  left: calc(50% - 11rem);
-  margin-top: 2.5rem;
-  border-radius: 13rem 13rem 0 0;
-  overflow: hidden;
-  padding: 0 1.5rem 2rem 1.5rem;
+   background: linear-gradient(var(--color-primary), transparent);
+   width: 22rem;
+   height: 24rem;
+   position: absolute;
+   left: calc(50% - 11rem);
+   margin-top: 2.5rem;
+   border-radius: 13rem 13rem 0 0;
+   overflow: hidden;
+   padding: 0 1.5rem 2rem 1.5rem;
 }
 
 /* ==================== SCROLL DOWN ==================== */
 
 .scroll_down {
-  position: absolute;
-  right: -2.3rem;
-  bottom: 10rem;
-  transform: rotate(90deg);
-  font-weight: 300;
-  font-size: 1rem;
+   position: absolute;
+   right: -2.3rem;
+   bottom: 10rem;
+   transform: rotate(90deg);
+   font-weight: 300;
+   font-size: 1rem;
 }
 
 /* ==================== MEDIA QUERIES (MEDIUM DEVICES) ==================== */
 @media screen and (min-width: 1025px) {
-  .me {
-    width: 25rem;
-    height: 30rem;
-    left: calc(50% - 12.5rem);
-  }
+   .me {
+      width: 25rem;
+      height: 30rem;
+      left: calc(50% - 12.5rem);
+   }
 
-  .header_socials {
-    bottom: 8rem;
-  }
+   .header_socials {
+      bottom: 8rem;
+   }
 
-  .header_socials::after {
-    height: 3rem;
-  }
+   .header_socials::after {
+      height: 3rem;
+   }
 
-  .scroll_down {
-    bottom: 15rem;
-  }
+   .scroll_down {
+      bottom: 15rem;
+   }
 }
 
 /* ==================== MEDIA QUERIES (MEDIUM DEVICES) ==================== */
 
 @media screen and (max-width: 1024px) {
-  header {
-    height: 85vh;
-  }
+   header {
+      height: 85vh;
+   }
 
-  .me {
-    width: 24rem;
-    height: 26rem;
-    left: calc(50% - 12rem);
-  }
+   .me {
+      width: 24rem;
+      height: 26rem;
+      left: calc(50% - 12rem);
+   }
 
-  .header_socials {
-    bottom: 3rem;
-  }
+   .header_socials {
+      bottom: 3rem;
+   }
 
-  .header_socials::after {
-    height: 0.8rem;
-  }
+   .header_socials::after {
+      height: 0.8rem;
+   }
 
-  .scroll_down {
-    bottom: 8rem;
-  }
+   .scroll_down {
+      bottom: 8rem;
+   }
 }
 
 /* ==================== MEDIA QUERIES (SMALL DEVICES) ==================== */
 
 @media screen and (max-width: 600px) {
-  header {
-    height: 100vh;
-  }
+   header {
+      height: 100vh;
+   }
 
-  .header_socials,
-  .scroll_down {
-    display: none;
-  }
+   .header_socials,
+   .scroll_down {
+      display: none;
+   }
 
-  .me {
-    width: 18rem;
-    height: 20rem;
-    left: calc(45% - 9rem);
-    border-radius: 11rem 11rem 0 0;
-  }
+   .me {
+      width: 18rem;
+      height: 20rem;
+      left: calc(45% - 9rem);
+      border-radius: 11rem 11rem 0 0;
+   }
 }
 
 /* ==================== MEDIA QUERIES (EXTRA SMALL DEVICES) ==================== */
 
 @media screen and (max-width: 420px) {
-  .me {
-    width: 16rem;
-    height: 19rem;
-    left: calc(45% - 8rem);
-    border-radius: 10rem 10rem 0 0;
-  }
+   .me {
+      width: 16rem;
+      height: 19rem;
+      left: calc(45% - 8rem);
+      border-radius: 10rem 10rem 0 0;
+   }
 }
 
 @media screen and (max-width: 340px) {
-  .me {
-    width: 12rem;
-    height: 14rem;
-    left: calc(45% - 6rem);
-    border-radius: 8rem 8rem 0 0;
-  }
+   .me {
+      width: 12rem;
+      height: 14rem;
+      left: calc(45% - 6rem);
+      border-radius: 8rem 8rem 0 0;
+   }
 }
